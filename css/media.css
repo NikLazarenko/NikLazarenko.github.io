@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1199px){
+    .wrapper{
+        width: 970px;
+        transition: 1s;
+    }
+    #line{
+        left: 51.8%;
+        transition: 1s;
+    }
+    .menu{
+        transition: 1s;
+    }
+    #logo{
+        transition: 1s;
+    }
+    header{
+        transition: 1s;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .wrapper{
+        width: 750px;
+        transition: 1s;
+    }
+    #line{
+        transition: 1s;
+        left: 53.2%;
+    }
+    .parallelogram{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #logo{
+        left: 2%;
+    }
+    .explanation{
+        text-align: center;
+        padding-top: 7px;
+        margin: auto;
+    }
+    .horizontal_line{
+        display: none;
+    }
+    .information{
+        width: 300px;
+        margin: auto;
+    }
+    .project_container{
+        height: 300px;
+    }
+    .project_container:hover{
+        height: 320px;
+    }
+}
+@media only screen and (max-width: 767px){
+    #line{
+        width: 0;
+        transition: 0.5s;
+    }
+    .menu{
+        display: none;
+    }
+    #logo{
+        text-align: center;
+        margin: auto;
+        left: 0;
+    }
+    .mobile_menu {
+        display: block;
+    }
+    .wrapper, header{
+        height: 160px;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    #logo span{
+        transition: 1s;
+    }
+    .photo{
+        margin: auto;
+    }
+    .parallelogram{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .social_buttons{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 480px){
+    #logo{
+        top: 55px;
+        width: 240px;
+        font-size: 24px;
+    }
+    #logo span{
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 320px){
+    .parallelogram{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 100%;
+    }
+    .parallelogram span{
+        top: 12px;
+    }
+    .padding_for_diagram{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .information{
+        width: 250px;
+        font-size: 90%;
+        height: 170px;
+    }
+    .info{
+        margin-left: 5px;
+    }
+}
+/*For mobile menu xs devices*/
+@media only screen and (max-height: 350px){
+    .mobile_menu a{
+        font-size: 100%;
+    }
+    .mobile_nav{
+        padding-top: 50px;
+        width: 170px;
+    }
+}
